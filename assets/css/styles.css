@@ -12,10 +12,13 @@
   --title-color: hsl(var(--hue-color), 4%, 95%);
   --text-color: hsl(var(--hue-color), 4%, 75%);
   --text-color-light: hsl(var(--hue-color), 4%, 65%);
-  --white-color: #FFF;
+  --white-color: #fff;
   --body-color: hsl(var(--hue-color), 4%, 6%);
   --container-color: hsl(var(--hue-color), 4%, 10%);
-  --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+  --text-gradient: linear-gradient(
+    hsl(var(--hue-color), 4%, 24%),
+    hsl(var(--hue-color), 4%, 8%)
+  );
   --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
   --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
 
@@ -26,9 +29,9 @@
   --big-font-size: 2.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
   --text-line-height: 2rem;
 
   /*========== Font weight ==========*/
@@ -36,8 +39,8 @@
   --font-semi-bold: 600;
 
   /*========== Margenes Bottom ==========*/
-  --mb-0-5: .5rem;
-  --mb-0-75: .75rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
   --mb-1: 1rem;
   --mb-1-5: 1.5rem;
   --mb-2: 2rem;
@@ -57,73 +60,98 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
 /*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
-
 /*=============== LAYOUT ===============*/
-
 
 /*=============== HEADER ===============*/
 
-
 /*=============== NAV ===============*/
-
 
 /* show menu */
 
-
 /* Change background header */
-
 
 /* Active link */
 
-
 /*=============== HOME ===============*/
-
 
 /*=============== BUTTONS ===============*/
 
-
 /*=============== SPONSOR ===============*/
-
 
 /*=============== SPECS ===============*/
 
-
 /*=============== CASE ===============*/
-
 
 /*=============== DISCOUNT ===============*/
 
-
 /*=============== PRODUCTS ===============*/
-
 
 /*=============== FOOTER ===============*/
 
-
 /*=============== SCROLL UP ===============*/
-
 
 /* Show Scroll Up*/
 
-
 /*=============== SCROLL BAR ===============*/
-
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 
-
 /* For medium devices */
-
 
 /* For large devices */
