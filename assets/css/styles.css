@@ -230,6 +230,54 @@ img {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home_img {
+  width: 250px;
+  position: absolute;
+  top: -16rem;
+  right: 1.5rem;
+}
+
+.home_data {
+  padding-top: 5rem;
+}
+
+.home_header {
+  position: relative;
+}
+
+.home_title {
+  font-size: var(--biggest-font-size);
+  background: var(--text-gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  top: -4rem;
+  left: 1rem;
+  line-height: 6rem;
+}
+
+.home_subtitle {
+  font-size: var(--big-font-size);
+  margin-bottom: var(--mb-2-5);
+}
+
+.home_title-description {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+
+.home_description {
+  margin-bottom: var(--mb-2-5);
+  line-height: var(--text-line-height);
+}
+
+.home_price {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-left: var(--mb-0-75);
+}
 
 /*=============== BUTTONS ===============*/
 
