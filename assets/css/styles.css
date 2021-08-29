@@ -404,6 +404,54 @@ img {
 }
 
 /*=============== PRODUCTS ===============*/
+.products_line {
+  line-height: 4rem;
+}
+
+.products_container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem 1.5rem;
+  padding-top: 3rem;
+}
+
+.products_card {
+  position: relative;
+  height: 132px;
+  background-color: var(--container-color);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  display: grid;
+}
+
+.products_img {
+  width: 80px;
+  position: absolute;
+  inset: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -3rem;
+}
+
+.products_content {
+  align-self: flex-end;
+}
+
+.products_title,
+.products_price {
+  font-size: var(--small-font-size);
+}
+
+.products_price {
+  font-weight: var(--font-semi-bold);
+}
+
+.products_button {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.35rem;
+}
 
 /*=============== FOOTER ===============*/
 
