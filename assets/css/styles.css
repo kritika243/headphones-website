@@ -359,6 +359,25 @@ img {
 }
 
 /*=============== CASE ===============*/
+.case_container {
+  position: relative;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.case_data {
+  padding: 5rem 0 3rem;
+}
+
+.case_img {
+  width: 250px;
+  position: absolute;
+  left: -7rem;
+}
+
+.case_description {
+  margin-bottom: var(--mb-1-5);
+  line-height: var(--text-line-height);
+}
 
 /*=============== DISCOUNT ===============*/
 
