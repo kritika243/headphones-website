@@ -226,6 +226,9 @@ img {
 }
 
 /* Change background header */
+.scroll-header {
+  background-color: var(--body-color);
+}
 
 /* Active link */
 
