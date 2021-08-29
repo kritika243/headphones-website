@@ -319,6 +319,44 @@ img {
 }
 
 /*=============== SPECS ===============*/
+.specs_container {
+  position: relative;
+}
+
+.specs_content {
+  row-gap: 1.5rem;
+}
+
+.specs_data {
+  display: grid;
+  row-gap: 0.25rem;
+}
+
+.specs_icon {
+  font-size: 1.2rem;
+  color: var(--white-color);
+}
+
+.specs_title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.specs_subtitle {
+  font-size: var(--smaller-font-size);
+}
+
+.specs_data:nth-child(1),
+.specs_data:nth-child(4) {
+  margin-left: var(--mb-1-5);
+}
+
+.specs_img {
+  width: 250px;
+  position: absolute;
+  top: 2rem;
+  right: -4rem;
+}
 
 /*=============== CASE ===============*/
 
