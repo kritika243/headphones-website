@@ -380,6 +380,28 @@ img {
 }
 
 /*=============== DISCOUNT ===============*/
+.discount_container {
+  position: relative;
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.discount_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.discount_description {
+  margin-bottom: var(--mb-1);
+}
+
+.dicount_img {
+  width: 300px;
+  position: absolute;
+  top: 4rem;
+  right: -11rem;
+}
 
 /*=============== PRODUCTS ===============*/
 
